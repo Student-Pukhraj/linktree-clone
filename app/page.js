@@ -27,13 +27,13 @@ export default function Home() {
         </div>
 
         <div className=" flex items-center justify-center flex-col mr-[10vw]">
-          <img src="home.png" alt="home image" />
+          <Image  src="home.png" alt="home image" />
         </div>
       </section>
 
       <section className="bg-[#e9c0e9] min-h-[100vh] grid grid-cols-2">
         <div className="secondOne flex items-center justify-center flex-col ml-[10vw]">
-          <img src="second.png" alt="second img" />
+          <Image src="second.png" alt="second img" />
           </div>
 
             <div className="flex justify-center flex-col mr-[10vw] gap-3 my-40">
@@ -55,13 +55,13 @@ export default function Home() {
         </div>
 
         <div className=" flex items-center justify-center flex-col mr-[10vw]">
-          <img src="third.png" alt="home image" />
+          <Image  src="third.png" alt="home image" />
         </div>
 
       </section>
       <section className="bg-[#e8efd6] min-h-[100vh] grid grid-cols-2">
                   <div className="forth flex items-center justify-center flex-col ml-[10vw]">
-          <img src="forth.png" alt="second img" />
+          <Image  src="forth.png" alt="second img" />
           </div>
 
             <div className="flex justify-center flex-col mr-[10vw] gap-3 my-40">
