@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useSearchParams } from "next/navigation";
-// import Image from "next/image";
+import Image from "next/image";
 
 const Generate = () => {
   const searchParams = useSearchParams();
@@ -155,7 +155,7 @@ const Generate = () => {
 
       {/* Right column */}
       <div className="col2 w-full h-screen bg-[#1E5ABF]">
-        <image
+        <Image
           className="h-full object-contain"
           src="/generate.png"
           alt="generate your links"
@@ -170,4 +170,5 @@ const Generate = () => {
 };
 
 export default Generate;
+
 
