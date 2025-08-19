@@ -38,7 +38,7 @@ if(!item){
     }
     return <div className="flex min-h-screen bg-purple-400 justify-center items-start py-10">
         {item && <div className="photo flex flex-col items-center justify-center gap-4">
-            <img className="rounded-full w-32" src={item.picture} alt="" />
+            <Image className="rounded-full w-32" src={item.picture} alt="" />
             <span className="font-bold text-xl">@{item.handle}</span>
             <span className="desc w-80 text-center">{item.desc}</span>
             <div className="links">
@@ -50,4 +50,5 @@ if(!item){
             </div>
         </div>}
     </div>
+
 }
