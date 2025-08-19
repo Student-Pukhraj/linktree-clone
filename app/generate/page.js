@@ -99,7 +99,7 @@ const Generate = () => {
                 </div>
             </div>
             <div className="col2 w-full h-screen bg-[#1E5ABF]">
-                <img className='h-full object-contain' src="/generate.png" alt="generate your links" />
+                <Image className='h-full object-contain' src="/generate.png" alt="generate your links" />
             </div>
             <ToastContainer />
         </div >
@@ -107,3 +107,4 @@ const Generate = () => {
 }
 
 export default Generate
+
