@@ -155,7 +155,7 @@ const Generate = () => {
 
       {/* Right column */}
       <div className="col2 w-full h-screen bg-[#1E5ABF]">
-        <Image
+        <image
           className="h-full object-contain"
           src="/generate.png"
           alt="generate your links"
@@ -170,3 +170,4 @@ const Generate = () => {
 };
 
 export default Generate;
+
